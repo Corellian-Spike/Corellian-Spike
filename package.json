@@ -1,5 +1,5 @@
 {
-  "name": "corellian-spike",
+  "name": "@cspike/cspike",
   "version": "1.0.0",
   "description": "open source corellian-spike game",
   "main": "index.js",
