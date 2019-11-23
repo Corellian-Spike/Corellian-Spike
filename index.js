@@ -1,3 +1,9 @@
 'use strict';
 
-const CSpike = module.exports = require('./lib/game');
+const Game = require('./lib/game');
+
+const CSpike = {
+  Game
+};
+
+module.exports = CSpike;
