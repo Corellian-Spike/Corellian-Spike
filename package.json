@@ -1,0 +1,12 @@
+{
+  "name": "corellian-spike",
+  "version": "1.0.0",
+  "description": "open source corellian-spike game",
+  "main": "index.js",
+  "repository": "https://github.com/Corellian-Spike/Corellian-Spike.git",
+  "author": "Ender Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
