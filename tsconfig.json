@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.settings.json",
+  "compilerOptions": {
+      "outDir": "./lib/",
+      "rootDir": "./src/",
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "module": "es6",
+      "jsx": "react",
+      "target": "es5",
+      "sourceRoot": "./src",
+      "skipLibCheck": false
+  },
+  "include": [
+      "./src/"
+  ],
+  "exclude": [
+    "./lib/",
+    "./node_modules/"
+  ]
+}
