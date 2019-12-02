@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "file-header": [true, "Copyright \\d{4}", "Copyright 2018"],
+    "file-name-casing": [true, "kebab-case"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js",
+      "**/*.d.ts",
+      "lib/**"
+    ]
+  }
+}
